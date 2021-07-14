@@ -1,0 +1,15 @@
+{
+  "name": "remote",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "cc-tweaked-types": "file:./../cc-tweaked-types",
+    "lua-types": "^2.10.1",
+    "typescript-to-lua": "^0.41.0"
+  },
+  "scripts": {
+    "build": "tstl",
+    "dev": "tstl --watch"
+  }
+}
