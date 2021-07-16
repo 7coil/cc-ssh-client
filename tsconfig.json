@@ -8,11 +8,13 @@
     "types": ["lua-types/5.1", "cc-tweaked-types"],
     "strict": true,
     "outDir": "dist/",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true
   },
   "tstl": {
     "luaTarget": "5.1",
     // "luaBundle": "C:\\Games\\MultiMC\\instances\\Computercraft\\.minecraft\\saves\\Computercraft\\computercraft\\computer\\0\\remote.lua",
-    "luaBundle": "ssh.lua",
+    // "luaBundle": "ssh.lua",
     "luaBundleEntry": "src/index.ts"
   }
 }
